@@ -335,6 +335,12 @@ body:hover .cursor-glow {
   margin-bottom: 22px;
 }
 
+.solution-card-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
 .solution-icon {
   width: 52px;
   height: 52px;
