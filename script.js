@@ -74,6 +74,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
   $$('.nav-link').forEach(link => link.addEventListener('click', closeMenu));
 
+  document.addEventListener('click', (e) => {
+    if (!navLinks.classList.contains('open')) return;
+    if (navLinks.contains(e.target) || hamburger.contains(e.target)) return;
+    closeMenu();
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && navLinks.classList.contains('open')) {
+      closeMenu();
+      hamburger.focus();
+    }
+  });
+
   /* ===== Scrollspy ===== */
   const sections = $$('section[id]');
   const navItems = $$('.nav-link');
