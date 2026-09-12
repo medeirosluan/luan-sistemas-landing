@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LuanSistemas: PDV completo para comércio e Zelo, gestão para salões e barbearias. Vendas, estoque, agenda, financeiro e suporte em um só lugar.">
+  <meta name="theme-color" content="#6366f1">
+  <meta name="robots" content="index, follow">
+  <title>LuanSistemas | PDV para comércio e gestão para salões</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+  <a class="whatsapp-float" href="https://wa.me/5511984881939?text=Ol%C3%A1%21%20Quero%20conhecer%20as%20solu%C3%A7%C3%B5es%20da%20Luan%20Sistemas." target="_blank" rel="noopener noreferrer" aria-label="Falar com a Luan Sistemas pelo WhatsApp">
+    <svg class="ui-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M20.5 11.9a8.4 8.4 0 0 1-12.4 7.4L3 21l1.7-4.9A8.4 8.4 0 1 1 20.5 11.9Z"/><path d="M8.2 8.1c.2-.5.4-.5.7-.5h.6c.2 0 .4.1.5.4l.8 1.9c.1.3.1.5-.1.7l-.5.6c-.1.1-.1.3 0 .4.4.8 1.1 1.5 1.9 2 .2.1.3.1.4 0l.7-.8c.2-.2.4-.2.7-.1l1.8.8c.3.1.4.3.4.5v.6c0 .3-.2.6-.5.8-.5.3-1.1.4-1.8.2-1.1-.3-2.2-1-3.2-2s-1.7-2.1-2-3.2c-.2-.6-.1-1.2.1-1.7Z"/></svg>
+    <span>Fale conosco</span>
+  </a>
+
+  <header class="header" id="header">
+    <nav class="navbar container" aria-label="Navegação principal">
+      <a href="#inicio" class="brand">
+        <span class="brand-logo">&lt;/&gt;</span>
+        <span class="brand-name">Luan<span>Sistemas</span></span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#solucoes" class="nav-link">Soluções</a></li>
+        <li><a href="#vantagens" class="nav-link">Vantagens</a></li>
+        <li><a href="#planos" class="nav-link">Planos</a></li>
+        <li><a href="#faq" class="nav-link">Dúvidas</a></li>
+        <li><a href="#contato" class="nav-link">Contato</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Alternar modo escuro" aria-pressed="false">
+          <svg class="ui-icon icon-sun" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+          <svg class="ui-icon icon-moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8Z"/></svg>
+        </button>
+        <a href="#contato" class="btn btn-primary btn-nav btn-shine" data-interest="Demo / demonstração">Falar com especialista</a>
+      </div>
+
+      <button class="hamburger" id="hamburger" type="button" aria-label="Abrir menu" aria-controls="navLinks" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio">
+      <div class="aurora" aria-hidden="true">
+        <span class="blob blob-1"></span>
+        <span class="blob blob-2"></span>
+        <span class="blob blob-3"></span>
+      </div>
+
+      <div class="container hero-content">
+        <div class="hero-text">
+          <span class="badge"><span class="pulse-dot"></span> Luan Sistemas · comércio, salões e barbearias</span>
+          <h1>Gestão feita para a rotina do <span class="gradient-text animate-gradient">seu negócio</span></h1>
+          <p>Uma marca, duas soluções especializadas: PDV para organizar o comércio e Zelo para simplificar a gestão de salões e barbearias.</p>
+          <div class="hero-actions">
+            <a href="#solucoes" class="btn btn-primary btn-lg btn-shine">Conhecer as soluções</a>
+            <a href="#contato" class="btn btn-glass btn-lg" data-interest="Demo / demonstração">Falar com especialista</a>
+          </div>
+          <div class="hero-product-links" aria-label="Escolha sua solução">
+            <a href="#planos" class="hero-product-link">
+              <span class="hero-product-icon"><svg class="ui-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 3h2l2.4 11.3a2 2 0 0 0 2 1.6h7.9a2 2 0 0 0 1.9-1.4L21 7H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg></span>
+              <span><small>LuanSistemas PDV · comércio</small><strong>Conhecer o PDV</strong></span><span class="hero-product-arrow">→</span>
+            </a>
+            <a href="https://www.zelosaloes.com.br/" class="hero-product-link hero-product-zelo" target="_blank" rel="noopener noreferrer">
+              <span class="hero-product-icon"><svg class="ui-icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="m8.6 8.6 10.4 10.4M8.6 15.4 19 5"/></svg></span>
+              <span><small>Zelo · salões e barbearias</small><strong>Conhecer o Zelo</strong></span><span class="hero-product-arrow">→</span>
+            </a>
+          </div>
+          <ul class="hero-stats">
+            <li><strong>2 soluções</strong><span>para segmentos diferentes</span></li>
+            <li><strong>Web + Desktop</strong><span>para trabalhar como preferir</span></li>
+            <li><strong>Implantação orientada</strong><span>para começar com segurança</span></li>
+          </ul>
+        </div>
+        <div class="hero-visual">
+          <div class="dashboard-card" data-tilt>
+            <div class="dash-header">
+              <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+              <span class="code-file">Luan Sistemas · PDV</span>
+              <span class="dash-live"><span class="pulse-dot"></span> Ao vivo</span>
+            </div>
+            <div class="dash-body">
+              <div class="dash-stats">
+                <div><small>Vendas hoje</small><strong>R$ 4.850</strong></div>
+                <div><small>Pedidos</small><strong>132</strong></div>
+                <div><small>Lucro</small><strong>R$ 1.240</strong></div>
+              </div>
+              <div class="dash-items">
+                <div class="dash-item"><span>Coca-Cola 2L</span><b>1</b><b>R$ 9,90</b></div>
+                <div class="dash-item"><span>Arroz 5kg</span><b>2</b><b>R$ 52,90</b></div>
+                <div class="dash-item"><span>Sabonete</span><b>3</b><b>R$ 8,70</b></div>
+              </div>
+              <div class="dash-total">TOTAL <strong>R$ 71,50</strong></div>
+            </div>
+            <div class="code-card-glow" aria-hidden="true"></div>
+          </div>
+          <div class="zelo-preview-card" aria-label="Prévia do Zelo, gestão para salões">
+            <div class="zelo-preview-header">
+              <span class="zelo-mark">✦</span>
+              <span>Zelo · Gestão para Salões</span>
+              <span class="zelo-online">● Online</span>
+            </div>
+            <div class="zelo-preview-body">
+              <div class="zelo-preview-title"><strong>Agenda de hoje</strong><span>12 set.</span></div>
+              <div class="zelo-appointment"><span class="zelo-time">09:00</span><span><b>Ana Martins</b><small>Corte + finalização</small></span><i>Confirmado</i></div>
+              <div class="zelo-appointment"><span class="zelo-time">10:30</span><span><b>Beatriz Costa</b><small>Coloração</small></span><i>Confirmado</i></div>
+              <div class="zelo-preview-footer"><span>8 atendimentos</span><strong>R$ 1.280,00</strong></div>
+            </div>
+          </div>
+          <div class="float-chip chip-1" data-tilt>🖨️ Cupom térmico</div>
+          <div class="float-chip chip-2" data-tilt><svg class="ui-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="m21 8-9 5-9-5 9-5 9 5Z"/><path d="m3 8 9 5 9-5M3 8v8l9 5 9-5V8"/></svg>Estoque no automático</div>
+          <div class="float-chip chip-3" data-tilt><svg class="ui-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 9 9"/><path d="M12 7v5l3 2"/></svg>Zelo: agenda e avaliações</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-label="O que o sistema faz">
+      <div class="marquee-track">
+        <span>Frente de Caixa</span><span>Estoque</span><span>Caixa e Sangria</span><span>Modo Offline</span>
+        <span>Relatórios</span><span>Cadastro de Clientes</span><span>App Desktop</span><span>Cupom Térmico</span>
+        <span>Frente de Caixa</span><span>Estoque</span><span>Caixa e Sangria</span><span>Modo Offline</span>
+        <span>Relatórios</span><span>Cadastro de Clientes</span><span>App Desktop</span><span>Cupom Térmico</span>
+      </div>
+    </div>
+
+    <section class="solutions section" id="solucoes">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Soluções LuanSistemas</span>
+          <h2>O sistema certo para <span class="gradient-text">cada tipo de negócio</span></h2>
+          <p>Duas soluções da LuanSistemas, cada uma construída para as necessidades reais do seu segmento.</p>
+        </div>
+
+        <div class="solutions-grid">
+          <article class="solution-card solution-pdv glass-card" data-tilt>
+            <div class="solution-card-top">
+              <span class="solution-icon"><svg class="ui-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 3h2l2.4 11.3a2 2 0 0 0 2 1.6h7.9a2 2 0 0 0 1.9-1.4L21 7H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg></span>
+              <span class="solution-label">Para lojas e comércio</span>
+            </div>
+            <h3>LuanSistemas PDV</h3>
+            <p>Controle vendas, estoque e relatórios em uma solução completa para o seu comércio, com app desktop que funciona até sem internet.</p>
+            <ul class="solution-features">
+              <li>Frente de caixa rápida e simples</li>
+              <li>Estoque integrado às vendas</li>
+              <li>Financeiro e relatórios gerenciais</li>
+            </ul>
+            <a href="#planos" class="btn btn-primary">Ver planos do PDV <span>→</span></a>
+          </article>
+
+          <article class="solution-card solution-zelo glass-card" data-tilt>
+            <div class="solution-card-top">
+              <span class="solution-icon zelo-icon"><svg class="ui-icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="m8.6 8.6 10.4 10.4M8.6 15.4 19 5"/></svg></span>
+              <span class="solution-label">Para salões e barbearias</span>
+            </div>
+            <h3>Zelo — Gestão para Salões</h3>
+            <p>Organize sua agenda, clientes, profissionais e financeiro em um único lugar, no computador ou celular.</p>
+            <ul class="solution-features">
+              <li>Agenda por profissional e agendamento online</li>
+              <li>Cadastro e histórico de clientes</li>
+              <li>Financeiro por profissional e cliente, sem planilhas</li>
+            </ul>
+            <a href="https://www.zelosaloes.com.br/" class="btn btn-zelo" target="_blank" rel="noopener noreferrer">Conhecer o Zelo <span>→</span></a>
+          </article>
+        </div>
+        <p class="solutions-support">Não sabe qual é a melhor opção? <a href="#contato" data-interest="Outro assunto">Fale com a nossa equipe</a> e receba uma indicação para o seu negócio.</p>
+      </div>
+    </section>
+
+    <section class="services section" id="recursos">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Recursos do sistema</span>
+          <h2>Tudo o que sua loja precisa em um <span class="gradient-text">único sistema</span></h2>
+          <p>Feito para vender rápido, controlar o estoque e cuidar do financeiro sem complicação.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card glass-card" data-tilt>
+            <span class="service-num">01</span>
+            <div class="service-icon"><svg class="ui-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 3h2l2.4 11.3a2 2 0 0 0 2 1.6h7.9a2 2 0 0 0 1.9-1.4L21 7H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg></div>
+            <h3>Frente de Caixa (PDV)</h3>
+            <p>Venda em poucos segundos com atalhos no teclado, leitor de código de barras e múltiplas formas de pagamento na mesma venda.</p>
+            <a href="#planos" class="card-link">Ver planos <span class="arrow">→</span></a>
+          </article>
+
+          <article class="service-card glass-card" data-tilt>
+            <span class="service-num">02</span>
+            <div class="service-icon"><svg class="ui-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="m21 8-9 5-9-5 9-5 9 5Z"/><path d="m3 8 9 5 9-5M3 8v8l9 5 9-5V8"/></svg></div>
+            <h3>Controle de Estoque</h3>
+            <p>Baixa automática a cada venda, alerta de estoque mínimo e variações de produto (tamanho, cor etc.).</p>
+            <a href="#planos" class="card-link">Ver planos <span class="arrow">→</span></a>
+          </article>
+
+          <article class="service-card glass-card" data-tilt>
+            <span class="service-num">03</span>
+            <div class="service-icon"><svg class="ui-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M2 12h4l3-9 4 18 3-9h4"/></svg></div>
+            <h3>Funciona sem internet</h3>
+            <p>Vendas e caixa continuam funcionando mesmo com a internet fora do ar, e tudo sincroniza sozinho assim que a conexão volta.</p>
+            <a href="#planos" class="card-link">Ver planos <span class="arrow">→</span></a>
+          </article>
+
+          <article class="service-card glass-card" data-tilt>
+            <span class="service-num">04</span>
+            <div class="service-icon"><svg class="ui-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 3v18l2-1.5L8 21l2-1.5L12 21l2-1.5 2 1.5 2-1.5 2 1.5V3Z"/><path d="M8 8h8M8 12h8M8 16h5"/></svg></div>
+            <h3>Impressão de Cupom</h3>
+            <p>Cupom não fiscal impresso direto na sua térmica pelo app desktop, sem abrir o diálogo de impressão do Windows.</p>
+            <a href="#planos" class="card-link">Ver planos <span class="arrow">→</span></a>
+          </article>
+
+          <article class="service-card glass-card" data-tilt>
+            <span class="service-num">05</span>
+            <div class="service-icon"><svg class="ui-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 16v-4M12 16V7M17 16v-7"/></svg></div>
+            <h3>Relatórios Inteligentes</h3>
+            <p>Vendas, lucro, produtos mais vendidos e performance por operador para decidir com dado, não com achismo.</p>
+            <a href="#planos" class="card-link">Ver planos <span class="arrow">→</span></a>
+          </article>
+
+          <article class="service-card glass-card" data-tilt>
+            <span class="service-num">06</span>
+            <div class="service-icon"><svg class="ui-icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="9" cy="7" r="4"/><path d="M2 21v-2a7 7 0 0 1 14 0v2M16 3.5a4 4 0 0 1 0 7M22 21v-2a7 7 0 0 0-3.5-6.1"/></svg></div>
+            <h3>Cadastro de Clientes</h3>
+            <p>Cadastro completo (nome, CPF/CNPJ, telefone e e-mail) com histórico de compras vinculado a cada venda.</p>
+            <a href="#planos" class="card-link">Ver planos <span class="arrow">→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="services services-zelo section" id="recursos-zelo">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag section-tag-zelo">Recursos do Zelo</span>
+          <h2>Tudo o que o seu salão precisa para <span class="gradient-text-zelo">organizar a rotina</span></h2>
+          <p>Agenda, clientes, avaliações e financeiro num só painel, com uma página pública para seus clientes agendarem sozinhos.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card service-card-zelo glass-card" data-tilt>
+            <span class="service-num">01</span>
+            <div class="service-icon service-icon-zelo"><svg class="ui-icon" aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></div>
+            <h3>Agenda por Profissional</h3>
+            <p>Organize os horários de cada profissional em um só painel, sem conflitos de agendamento.</p>
+            <a href="https://www.zelosaloes.com.br/" class="card-link card-link-zelo" target="_blank" rel="noopener noreferrer">Conhecer o Zelo <span class="arrow">→</span></a>
+          </article>
+
+          <article class="service-card service-card-zelo glass-card" data-tilt>
+            <span class="service-num">02</span>
+            <div class="service-icon service-icon-zelo"><svg class="ui-icon" aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18M9 16l2 2 4-4"/></svg></div>
+            <h3>Agendamento Online</h3>
+            <p>Seus clientes marcam horário sozinhos, a qualquer hora, numa página pública sem precisar criar conta.</p>
+            <a href="https://www.zelosaloes.com.br/" class="card-link card-link-zelo" target="_blank" rel="noopener noreferrer">Conhecer o Zelo <span class="arrow">→</span></a>
+          </article>
+
+          <article class="service-card service-card-zelo glass-card" data-tilt>
+            <span class="service-num">03</span>
+            <div class="service-icon service-icon-zelo"><svg class="ui-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="m12 2 3 6 6.5.9-4.7 4.6L18 20 12 17l-6 3 1.2-6.5L2.5 8.9 9 8Z"/></svg></div>
+            <h3>Avaliações de Clientes</h3>
+            <p>Receba e responda avaliações direto no painel, com nota média visível para reforçar a confiança do seu salão.</p>
+            <a href="https://www.zelosaloes.com.br/" class="card-link card-link-zelo" target="_blank" rel="noopener noreferrer">Conhecer o Zelo <span class="arrow">→</span></a>
+          </article>
+
+          <article class="service-card service-card-zelo glass-card" data-tilt>
+            <span class="service-num">04</span>
+            <div class="service-icon service-icon-zelo"><svg class="ui-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 16v-4M12 16V7M17 16v-7"/></svg></div>
+            <h3>Financeiro por Profissional</h3>
+            <p>Registre entradas e saídas vinculadas a cada profissional e cliente, com gráfico dos últimos 6 meses.</p>
+            <a href="https://www.zelosaloes.com.br/" class="card-link card-link-zelo" target="_blank" rel="noopener noreferrer">Conhecer o Zelo <span class="arrow">→</span></a>
+          </article>
+
+          <article class="service-card service-card-zelo glass-card" data-tilt>
+            <span class="service-num">05</span>
+            <div class="service-icon service-icon-zelo"><svg class="ui-icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="9" cy="7" r="4"/><path d="M2 21v-2a7 7 0 0 1 14 0v2M16 3.5a4 4 0 0 1 0 7M22 21v-2a7 7 0 0 0-3.5-6.1"/></svg></div>
+            <h3>Cadastro de Clientes</h3>
+            <p>Histórico completo de agendamentos por cliente, sempre à mão para atender melhor quem já é da casa.</p>
+            <a href="https://www.zelosaloes.com.br/" class="card-link card-link-zelo" target="_blank" rel="noopener noreferrer">Conhecer o Zelo <span class="arrow">→</span></a>
+          </article>
+
+          <article class="service-card service-card-zelo glass-card" data-tilt>
+            <span class="service-num">06</span>
+            <div class="service-icon service-icon-zelo"><svg class="ui-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="m13 2-9 12h7l-1 8 9-12h-7l1-8Z"/></svg></div>
+            <h3>Teste Grátis, Sem Cartão</h3>
+            <p>Comece no plano Grátis e evolua para o Pro quando crescer — 14 dias de teste, sem pedir cartão de crédito.</p>
+            <a href="https://www.zelosaloes.com.br/register" class="card-link card-link-zelo" target="_blank" rel="noopener noreferrer">Criar conta grátis <span class="arrow">→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="vantagens">
+      <div class="container about-grid">
+        <div class="about-visual">
+          <div class="about-card glass-card" data-reveal>
+            <span class="flag"><svg class="ui-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="m13 2-9 12h7l-1 8 9-12h-7l1-8Z"/></svg></span>
+            <h4>Pronto para usar</h4>
+            <p>Sem desenvolvimento e sem espera. Contratou, acessou: já pode vender no mesmo dia.</p>
+          </div>
+          <div class="about-card highlight glass-card" data-reveal>
+            <span class="flag"><svg class="ui-icon" aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg></span>
+            <h4>Web + Desktop</h4>
+            <p>Use pela internet em qualquer lugar ou instale no computador da sua empresa. Escolha o que preferir.</p>
+          </div>
+          <div class="about-card glass-card" data-reveal>
+            <span class="flag">🤝</span>
+            <h4>Suporte que responde</h4>
+            <p>Atendimento rápido pelo WhatsApp e treinamento incluso para você e sua equipe.</p>
+          </div>
+        </div>
+
+        <div class="about-text" data-reveal>
+          <span class="section-tag">Por que escolher nosso sistema?</span>
+          <h2>Vender mais e gerir melhor, <span class="gradient-text">sem complicação</span></h2>
+          <p>O nosso sistema de vendas foi construído com mais de 12 anos de experiência no varejo. Simples de usar, com tudo que o seu negócio precisa para crescer de verdade.</p>
+          <ul class="about-list">
+            <li><span>✓</span> Sem fidelidade e sem multa de cancelamento</li>
+            <li><span>✓</span> Backup automático dos seus dados</li>
+            <li><span>✓</span> Atualizações incluídas no plano</li>
+            <li><span>✓</span> Funciona offline e sincroniza sozinho quando a internet volta</li>
+          </ul>
+          <a href="#planos" class="btn btn-primary btn-shine">Escolher meu plano</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="process section" id="como-comecar">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Como começar</span>
+          <h2>Na sua loja em <span class="gradient-text">menos de 1 hora</span></h2>
+          <p>Simples assim: quatro passos e você já está vendendo com o sistema.</p>
+        </div>
+
+        <div class="process-steps">
+          <article class="step glass-card" data-tilt>
+            <span class="step-num">01</span>
+            <h3>Escolha seu plano</h3>
+            <p>Contrate online o plano ideal para o tamanho da sua operação.</p>
+          </article>
+          <article class="step glass-card" data-tilt>
+            <span class="step-num">02</span>
+            <h3>Receba seu acesso</h3>
+            <p>Acesso liberado na hora. Na web, é só entrar; no desktop, instalamos com você.</p>
+          </article>
+          <article class="step glass-card" data-tilt>
+            <span class="step-num">03</span>
+            <h3>Cadastre produtos</h3>
+            <p>Importe do Excel ou cadastre direto. Nossa equipe ajuda na configuração.</p>
+          </article>
+          <article class="step glass-card" data-tilt>
+            <span class="step-num">04</span>
+            <h3>Comece a vender 🎉</h3>
+            <p>Abra o caixa e atenda o primeiro cliente. Pronto, simples assim.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials section" id="experiencia">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Uma parceria desde o início</span>
+          <h2>Mais controle para sua operação, <span class="gradient-text">menos complicação no dia a dia</span></h2>
+          <p>Uma implantação orientada para você começar com segurança e manter a rotina sob controle.</p>
+        </div>
+
+        <div class="testimonials-grid">
+          <article class="testimonial-card glass-card" data-tilt>
+            <span class="testimonial-kicker">01</span>
+            <h3>Implantação orientada</h3>
+            <p>Conte com orientação nos primeiros passos, para configurar o sistema de acordo com a rotina da sua empresa.</p>
+          </article>
+
+          <article class="testimonial-card glass-card" data-tilt>
+            <span class="testimonial-kicker">02</span>
+            <h3>Informação em um só lugar</h3>
+            <p>Vendas, estoque e financeiro conectados para você acompanhar o que importa sem depender de planilhas.</p>
+          </article>
+
+          <article class="testimonial-card glass-card" data-tilt>
+            <span class="testimonial-kicker">03</span>
+            <h3>Suporte para a rotina</h3>
+            <p>Quando precisar de ajuda, fale com uma equipe que conhece a operação de comércio, salões e barbearias.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq section" id="faq">
+      <div class="container faq-grid">
+        <div class="faq-intro" data-reveal>
+          <span class="section-tag">Perguntas frequentes</span>
+          <h2>Tire suas <span class="gradient-text">principais dúvidas</span></h2>
+          <p>Entenda como funcionam nossas soluções antes de escolher o sistema ideal para seu negócio.</p>
+          <a href="#contato" class="btn btn-glass" data-interest="Outro assunto">Ainda tem dúvidas? Fale com a gente <span>→</span></a>
+        </div>
+
+        <div class="faq-list" data-reveal>
+          <details class="faq-item" open>
+            <summary>Posso testar antes de contratar?<span class="faq-toggle" aria-hidden="true"></span></summary>
+            <p>Sim. Fale com nossa equipe para conhecer a solução indicada para o seu negócio e entender o processo de teste e implantação.</p>
+          </details>
+          <details class="faq-item">
+            <summary>O PDV funciona pela internet e no computador?<span class="faq-toggle" aria-hidden="true"></span></summary>
+            <p>Sim. O LuanSistemas PDV pode ser usado pela web ou instalado no computador, conforme a necessidade da sua operação.</p>
+          </details>
+          <details class="faq-item">
+            <summary>O Zelo serve para quais negócios?<span class="faq-toggle" aria-hidden="true"></span></summary>
+            <p>O Zelo foi pensado para salões de beleza e barbearias que precisam organizar agenda, clientes, profissionais e financeiro.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Meus clientes conseguem avaliar o atendimento?<span class="faq-toggle" aria-hidden="true"></span></summary>
+            <p>Sim, no Zelo. Os clientes deixam avaliações e comentários direto pela página de agendamento, e você responde pelo painel — a nota média fica visível para reforçar a confiança no seu salão.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Consigo acessar as informações pelo celular?<span class="faq-toggle" aria-hidden="true"></span></summary>
+            <p>Sim. As soluções web podem ser acessadas de dispositivos conectados à internet, facilitando o acompanhamento da operação.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Vocês ajudam na implantação?<span class="faq-toggle" aria-hidden="true"></span></summary>
+            <p>Sim. Nossa equipe orienta os primeiros passos para que você comece a usar o sistema com segurança e rapidez.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing section" id="planos">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Planos do LuanSistemas PDV</span>
+          <h2>Comece a vender <span class="gradient-text">hoje mesmo</span></h2>
+          <p>Planos para comércio. Sem fidelidade, sem multa e sem taxa de instalação.</p>
+        </div>
+
+        <p class="billing-note" id="billingNote" aria-live="polite">Cancele quando quiser. Nenhuma taxa de instalação.</p>
+        <ul class="pricing-reassurance" aria-label="Benefícios em todos os planos">
+          <li><span>✓</span> Implantação orientada</li>
+          <li><span>✓</span> Backup automático</li>
+          <li><span>✓</span> Atualizações incluídas</li>
+        </ul>
+
+        <div class="pricing-grid">
+          <article class="plan-card glass-card" data-tilt>
+            <h3>Grátis</h3>
+            <p class="plan-desc">Para começar e testar o sistema</p>
+            <p class="plan-fit">Ideal para <strong>até 2 usuários</strong></p>
+            <div class="plan-price">
+              <small>R$</small><span class="price">0</span><span class="period">/mês</span>
+            </div>
+            <ul class="plan-features">
+              <li><span>✓</span> PDV completo</li>
+              <li><span>✓</span> Caixa e sangria</li>
+              <li><span>✓</span> Relatórios básicos</li>
+              <li><span>✓</span> Até 2 usuários</li>
+              <li><span>✓</span> Até 50 produtos</li>
+            </ul>
+            <a href="#contato" class="btn btn-glass btn-full" data-interest="Plano Grátis">Começar grátis <span>→</span></a>
+          </article>
+
+          <article class="plan-card featured glass-card" data-tilt>
+            <span class="plan-tag">Mais escolhido</span>
+            <h3>Básico</h3>
+            <p class="plan-desc">Para lojas que vendem todos os dias</p>
+            <p class="plan-fit">Ideal para <strong>até 5 usuários</strong></p>
+            <div class="plan-price">
+              <small>R$</small><span class="price">49,90</span><span class="period">/mês</span>
+            </div>
+            <ul class="plan-features">
+              <li><span>✓</span> Tudo do plano Grátis</li>
+              <li><span>✓</span> Até 5 usuários</li>
+              <li><span>✓</span> Até 500 produtos</li>
+              <li><span>✓</span> Impressão de cupom</li>
+            </ul>
+            <a href="#contato" class="btn btn-primary btn-full btn-shine" data-interest="Plano Básico">Quero o Básico <span>→</span></a>
+          </article>
+
+          <article class="plan-card glass-card" data-tilt>
+            <h3>Pro</h3>
+            <p class="plan-desc">Para operações maiores e em expansão</p>
+            <p class="plan-fit">Ideal para <strong>até 20 usuários</strong></p>
+            <div class="plan-price">
+              <small>R$</small><span class="price">99,90</span><span class="period">/mês</span>
+            </div>
+            <ul class="plan-features">
+              <li><span>✓</span> Tudo do plano Básico</li>
+              <li><span>✓</span> Até 20 usuários</li>
+              <li><span>✓</span> Até 5.000 produtos</li>
+              <li><span>✓</span> Relatórios avançados</li>
+            </ul>
+            <a href="#contato" class="btn btn-glass btn-full" data-interest="Plano Pro">Quero o Pro <span>→</span></a>
+          </article>
+        </div>
+        <section class="zelo-pricing-section" aria-labelledby="zelo-pricing-title">
+          <div class="zelo-pricing-head">
+            <span class="section-tag">Planos do Zelo</span>
+            <h3 id="zelo-pricing-title">Gestão para salões e <span>barbearias</span></h3>
+            <p>Comece grátis e faça upgrade quando sua operação precisar. Sem fidelidade.</p>
+          </div>
+          <div class="zelo-plans-grid">
+            <article class="zelo-plan-card">
+              <h4>Grátis</h4>
+              <p>Para começar e testar o sistema</p>
+              <div class="zelo-plan-price"><strong>Grátis</strong><span>para sempre</span></div>
+              <ul>
+                <li><span>✓</span> 1 profissional</li>
+                <li><span>✓</span> Até 3 serviços</li>
+                <li><span>✓</span> Até 10 clientes</li>
+                <li><span>✓</span> Agendamento pelo painel</li>
+                <li><span>✓</span> Relatório financeiro básico</li>
+              </ul>
+              <a href="https://www.zelosaloes.com.br/register" class="btn btn-zelo-outline btn-full" target="_blank" rel="noopener noreferrer">Criar conta grátis <span>→</span></a>
+            </article>
+            <article class="zelo-plan-card zelo-plan-featured">
+              <span class="zelo-plan-tag">Mais popular</span>
+              <h4>Pro</h4>
+              <p>Para salões em crescimento</p>
+              <div class="zelo-plan-price"><small>R$</small><strong>79</strong><span>/mês</span></div>
+              <p class="zelo-trial">14 dias grátis, sem cartão de crédito.</p>
+              <ul>
+                <li><span>✓</span> Profissionais, serviços e clientes ilimitados</li>
+                <li><span>✓</span> Agendamento online para clientes</li>
+                <li><span>✓</span> Relatório financeiro completo</li>
+                <li><span>✓</span> Suporte por WhatsApp</li>
+              </ul>
+              <a href="https://www.zelosaloes.com.br/register" class="btn btn-zelo btn-full" target="_blank" rel="noopener noreferrer">Começar grátis <span>→</span></a>
+            </article>
+          </div>
+          <a href="https://www.zelosaloes.com.br/pricing" class="zelo-pricing-link" target="_blank" rel="noopener noreferrer">Ver todos os detalhes dos planos do Zelo <span>→</span></a>
+        </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta section">
+      <div class="container">
+        <div class="cta-box" data-reveal>
+          <div class="cta-aurora" aria-hidden="true"></div>
+          <h2>Quer ver o sistema <span class="text-white">funcionando?</span></h2>
+          <p>Agende uma demonstração gratuita de 30 minutos com um especialista.</p>
+          <a href="#contato" class="btn btn-light btn-lg btn-shine" data-interest="Demo / demonstração">Agendar demonstração grátis</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contato">
+      <div class="container contact-grid">
+        <div class="contact-info" data-reveal>
+          <span class="section-tag">Contato</span>
+          <h2>Vamos colocar seu sistema <span class="gradient-text">para rodar?</span></h2>
+          <p>Conte um pouco sobre a sua operação. Assim, indicamos a solução e o plano mais adequados para o seu momento.</p>
+
+          <ul class="contact-channels">
+            <li><svg class="ui-icon" aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><a href="mailto:contato@luansistemas.com.br">contato@luansistemas.com.br</a></li>
+            <li><svg class="ui-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.4 19.4 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.6a2 2 0 0 1-.5 2.1L8 9.6a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.8.3 1.7.5 2.6.6a2 2 0 0 1 2.1 2.4Z"/></svg><a href="https://wa.me/5511984881939?text=Ol%C3%A1%21%20Quero%20conhecer%20as%20solu%C3%A7%C3%B5es%20da%20Luan%20Sistemas." target="_blank" rel="noopener noreferrer">Falar pelo WhatsApp</a></li>
+            <li><svg class="ui-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg><span>São Paulo, SP</span></li>
+          </ul>
+        </div>
+
+        <form class="contact-form glass-card" id="contactForm">
+          <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome completo" autocomplete="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="seu@email.com" autocomplete="email" required>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="telefone">Telefone</label>
+              <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" autocomplete="tel" inputmode="tel">
+            </div>
+            <div class="form-group">
+              <label for="servico">Tenho interesse em</label>
+              <select id="servico" name="servico">
+                <option value="">Selecione...</option>
+                <option>Plano Grátis</option>
+                <option>Plano Básico</option>
+                <option>Plano Pro</option>
+                <option>Demo / demonstração</option>
+                <option>Outro assunto</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Conte um pouco sobre o seu negócio..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full btn-shine">Continuar no WhatsApp <span>→</span></button>
+          <p class="form-note">Você confere a mensagem antes de enviá-la pelo WhatsApp.</p>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <a href="#inicio" class="brand brand-footer">
+          <span class="brand-logo">&lt;/&gt;</span>
+          <span class="brand-name">Luan<span>Sistemas</span></span>
+        </a>
+        <p>Soluções para comércio, salões e barbearias: PDV, estoque, agenda e financeiro para gerir seu negócio com mais facilidade.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Soluções</h4>
+        <ul>
+          <li><a href="#planos">PDV para comércio</a></li>
+          <li><a href="https://www.zelosaloes.com.br/" target="_blank" rel="noopener noreferrer">Zelo para salões</a></li>
+          <li><a href="#recursos">Recursos do PDV</a></li>
+          <li><a href="#recursos-zelo">Recursos do Zelo</a></li>
+          <li><a href="#solucoes">Comparar soluções</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#vantagens">Vantagens</a></li>
+          <li><a href="#como-comecar">Como começar</a></li>
+          <li><a href="#planos">Planos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Fale conosco</h4>
+        <p>Quer conhecer as soluções para o seu negócio?</p>
+        <a href="#contato" class="footer-contact-link">Entrar em contato <span>→</span></a>
+      </div>
+    </div>
+
+    <div class="footer-bottom container">
+      <p>&copy; <span id="year"></span> LuanSistemas. Todos os direitos reservados.</p>
+      <p>Feito com <span class="heart">💙</span> e tecnologia.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
