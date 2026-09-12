@@ -2308,22 +2308,6 @@ body:hover .cursor-glow {
   font-variant-numeric: tabular-nums;
 }
 
-/* ============================================
-   BILLING TOGGLE
-   ============================================ */
-.billing-toggle {
-  display: flex;
-  justify-content: center;
-  gap: 8px;
-  background: var(--glass-bg);
-  backdrop-filter: blur(12px);
-  border: 1px solid var(--border);
-  border-radius: 100px;
-  padding: 6px;
-  width: max-content;
-  margin: 0 auto 48px;
-}
-
 .billing-note {
   margin: -32px auto 18px;
   color: var(--text-light);
@@ -2343,32 +2327,6 @@ body:hover .cursor-glow {
 
 .pricing-reassurance li { display: flex; align-items: center; gap: 7px; }
 .pricing-reassurance li span { color: var(--success); font-weight: 800; }
-
-.tab {
-  padding: 10px 26px;
-  border-radius: 100px;
-  font-family: inherit;
-  font-size: 0.92rem;
-  font-weight: 600;
-  color: var(--text-light);
-  transition: all var(--transition-fast);
-}
-
-.tab.active {
-  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
-  color: #ffffff;
-  box-shadow: 0 4px 16px var(--primary-glow);
-}
-
-.tab-badge {
-  background: rgba(245, 158, 11, 0.2);
-  color: var(--accent2);
-  font-size: 0.72rem;
-  font-weight: 700;
-  padding: 2px 8px;
-  border-radius: 100px;
-  margin-left: 6px;
-}
 
 /* ============================================
    PRICING
@@ -2631,11 +2589,6 @@ body:hover .cursor-glow {
 
   .pricing-grid {
     grid-template-columns: 1fr;
-  }
-
-  .billing-toggle {
-    width: 100%;
-    justify-content: center;
   }
 
   .pricing-reassurance { align-items: flex-start; flex-direction: column; }
