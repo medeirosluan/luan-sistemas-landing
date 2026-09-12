@@ -179,6 +179,45 @@ button { cursor: pointer; border: none; background: none; }
 }
 
 .whatsapp-float .ui-icon { width: 20px; height: 20px; stroke-width: 2; }
+
+.back-to-top {
+  position: fixed;
+  right: 24px;
+  bottom: 92px;
+  z-index: 99;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-lg);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  transition: opacity var(--transition-fast), transform var(--transition-fast), visibility var(--transition-fast);
+}
+
+.back-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.back-to-top:hover {
+  color: #fff;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  border-color: transparent;
+}
+
+.back-to-top .ui-icon { width: 18px; height: 18px; }
+
+@media (max-width: 640px) {
+  .back-to-top { right: 16px; bottom: 78px; width: 40px; height: 40px; }
+}
 .whatsapp-float:hover { color: #fff; transform: translateY(-4px); box-shadow: 0 16px 34px rgba(37, 211, 102, .42); }
 
 .whatsapp-float::before {

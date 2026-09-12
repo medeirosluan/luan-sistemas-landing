@@ -36,10 +36,19 @@ document.addEventListener('DOMContentLoaded', () => {
     // Header
     header.classList.toggle('scrolled', window.scrollY > 40);
 
+    // Botão de voltar ao topo
+    backToTop.classList.toggle('visible', window.scrollY > 600);
+
     // Scrollspy
     spy();
   };
   window.addEventListener('scroll', onScroll, { passive: true });
+
+  /* ===== Voltar ao topo ===== */
+  const backToTop = document.getElementById('backToTop');
+  backToTop.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: reduceMotion ? 'auto' : 'smooth' });
+  });
 
   /* ===== Header ===== */
   const header = document.getElementById('header');
